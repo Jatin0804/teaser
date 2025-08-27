@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quralyst - Join the Waitlist</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Logo -->
+        <div class="logo-container">
+            <img src="logo.png" alt="Quralyst Logo" class="logo">
+        </div>
+
+        <!-- 3D Shapes for different screen sizes -->
+        <!-- Laptop/Desktop shapes -->
+        <div class="shapes laptop-shapes">
+            <img src="laptop objects/bottom left 3d shape.png" alt="Bottom Left 3D Shape" class="shape bottom-left-shape">
+            <img src="laptop objects/bottom 3d shape.png" alt="Bottom 3D Shape" class="shape bottom-shape">
+            <img src="laptop objects/right 3d shape.png" alt="Right 3D Shape" class="shape right-shape">
+        </div>
+
+        <!-- Mobile shapes -->
+        <div class="shapes mobile-shapes">
+            <img src="mobile objects/bottom left 3d object.png" alt="Bottom Left 3D Object" class="shape mobile-bottom-left">
+            <img src="mobile objects/bottom right 3d object.png" alt="Bottom Right 3D Object" class="shape mobile-bottom-right">
+            <img src="mobile objects/top right 3d object.png" alt="Top Right 3D Object" class="shape mobile-top-right">
+        </div>
+
+        <!-- Monitor shapes -->
+        <div class="shapes monitor-shapes">
+            <img src="monitor objects/bottom monitor 3d shape.png" alt="Bottom Monitor 3D Shape" class="shape monitor-bottom">
+            <img src="monitor objects/left bottom monitor 3dd shape.png" alt="Left Bottom Monitor 3D Shape" class="shape monitor-left-bottom">
+            <img src="monitor objects/right monitor 3d shape.png" alt="Right Monitor 3D Shape" class="shape monitor-right">
+        </div>
+
+        <!-- Main Content Glass Box -->
+        <div class="glass-container">
+            <div class="content">
+                <div class="brand-text">QURALYST</div>
+                <h1 class="main-title">Let AI Handle the Heavy Lifting So Your Team Can Focus on What Really Matters</h1>
+                <p class="subtitle">Steer your execution hours away from repetitive tasks and into high-value thinking because in M&A, insight wins over information. Empower your dealmakers with intelligent infrastructure.</p>
+                
+                <div class="waitlist-form">
+                    <input type="email" id="email" placeholder="Enter your email address" required>
+                    <button type="button" id="joinBtn" onclick="joinWaitlist()">Join the waitlist</button>
+                </div>
+                
+                <p class="description">
+                    <span class="checkmark">✓</span>
+                    Gives your deal team more time to think, negotiate, and win. Early access means early advantage. Join the waitlist.
+                </p>
+            </div>
+        </div>
+
+        <!-- Success Message -->
+        <div id="successMessage" class="success-message hidden">
+            <p>🎉 Thank you! You've been added to our waitlist.</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
