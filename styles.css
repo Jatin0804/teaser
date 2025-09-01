@@ -333,29 +333,36 @@ body {
 
 /* Tablet Styles (768px - 1024px) */
 @media screen and (min-width: 768px) and (max-width: 1024px) {
+    body{
+        background: linear-gradient(180deg, #282561 0%, #282561 70%, #ffffff 70%, #ffffff 10%);
+    }
+    
     .logo {
-        height: 70px;
+        height: 60px;
+    }
+
+    .logo-container{
+        left: 10%;
     }
     
     .glass-container {
-        max-width: 70%;
-        padding: 50px 40px;
-        margin-top: -5vh;
+        max-width: 80%;
+        margin-top: 12%;
     }
     
     .brand-text {
         font-size: 0.85rem;
-        margin-bottom: 25px;
+        margin-bottom: 0px;
     }
     
     .main-title {
-        font-size: 2.5rem;
-        margin-bottom: 25px;
+        font-size: 2.1rem;
+        margin: 25px 20px;
     }
     
     .subtitle {
         font-size: 1.1rem;
-        margin-bottom: 35px;
+        margin: 20px 20px;
     }
     
     #email {
@@ -371,15 +378,15 @@ body {
     }
     
     .bottom-left-shape {
-        width: 500px;
+        width: 400px;
     }
     
     .bottom-shape {
-        width: 650px;
+        width: 500px;
     }
     
     .right-shape {
-        width: 400px;
+        width: 250px;
     }
 }
 
