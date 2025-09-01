@@ -385,6 +385,10 @@ body {
 
 /* Mobile Styles (max-width: 767px) */
 @media screen and (max-width: 767px) {
+    body {
+        background: linear-gradient(180deg, #282561 0%, #282561 70%, #ffffff 50%, #ffffff 100%);
+    }
+
     .laptop-shapes {
         display: none;
     }
@@ -399,6 +403,7 @@ body {
     
     .logo-container {
         top: 20px;
+        left: 15%;
     }
     
     .logo {
@@ -407,8 +412,8 @@ body {
     
     .glass-container {
         padding: 30px 25px;
-        max-width: 90%;
-        margin-top: 10px;
+        max-width: 80%;
+        margin-top: 15%;
     }
     
     .brand-text {
@@ -417,16 +422,17 @@ body {
     }
     
     .main-title {
-        font-size: 1.8rem;
-        margin-bottom: 20px;
+        font-size: 1.3rem;
+        margin: 20px 10px;
     }
     
     .subtitle {
         font-size: 0.95rem;
-        margin-bottom: 30px;
+        margin: 20px 10px 30px 10px;
     }
     
     .waitlist-form {
+        margin: 0px 0px;
         gap: 0;
     }
     
@@ -446,6 +452,7 @@ body {
     }
     
     .description {
+        margin: 10px 10px 20px 10px;
         font-size: 0.85rem;
         gap: 8px;
     }
@@ -470,7 +477,7 @@ body {
     }
     
     .mobile-top-right {
-        top: 100px;
+        top: 50px;
         right: 0;
         width: 160px;
         height: auto;
