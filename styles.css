@@ -240,8 +240,8 @@ body {
     display: none;
 }
 
-/* Large Monitor Styles (1500px+) */
-@media screen and (min-width: 1500px) {
+/* Large Monitor Styles (1550px+) */
+@media screen and (min-width: 1550px) {
     .laptop-shapes {
         display: none;
     }
